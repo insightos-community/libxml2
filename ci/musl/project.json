@@ -1,0 +1,16 @@
+{
+  "project": "libxml2",
+  "version": "2.13.9",
+  "upstream": "https://github.com/GNOME/libxml2",
+  "upstream_tag": "v2.13.9",
+  "upstream_commit": "04af2cabb9f859c198b8a553c028a87481199410",
+  "libraries": [
+    "libxml2.so.2"
+  ],
+  "smoke_commands": [
+    [
+      "xmllint",
+      "--version"
+    ]
+  ]
+}
