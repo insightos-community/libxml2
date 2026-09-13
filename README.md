@@ -172,3 +172,6 @@ tests if possible.
 - Aleksey Sanin
 - Nick Wellnhofer
 
+## Reproducible platform builds
+
+See [glibc, musl and macOS build instructions](README.build.md) for pinned source revisions, exact scripts, tool requirements, local commands, CI reproduction and platform support boundaries.
